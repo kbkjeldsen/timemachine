@@ -87,6 +87,7 @@
         };
         Date.OriginalDate = OriginalDate;
         Date.UTC = OriginalDate.UTC;
+        Date.parse = OriginalDate.parse;
       },
 
       _getDifference: function() {
